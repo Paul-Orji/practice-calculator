@@ -6,7 +6,7 @@ let calculate = (number) => {
 
 let Result = () => {
   try {
-    display.value = eval(result.value);
+    display.value = eval(display.value);
   } catch (err) {
     alert("invalid input");
   }
@@ -17,5 +17,5 @@ let clr = () => {
 };
 
 let del = () => {
-  display.value = result.value.slice(0, -1);
+  display.value = display.value.slice(0, -1);
 };
