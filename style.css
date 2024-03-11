@@ -4,7 +4,8 @@
   box-sizing: border-box;
   outline: none;
   font-family: sans-serif;
-  background-color: aquamarine;
+  background-color: rgb(188, 250, 229);
+  
 }
 
 .container {
@@ -12,22 +13,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blueviolet;
+  background-color: rgb(191, 149, 231);
+  
+  
 }
 
-.Calc {
+.Calc { 
   box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 16);
   border-radius: 0px;
   padding: 16px;
   display: grid;
   grid-template-columns: repeat(4, 80px);
+  border-radius: 10px;
+  
 }
 
 input {
   grid-column: span 4;
   height: 80px;
   width: 330px;
-  background-color: blue;
+  background-color: rgb(188, 250, 229);
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, .16);
   border: none;
   border-radius: 15px;
   color: rgb(26, 25, 25);
@@ -35,7 +41,7 @@ input {
   margin: 40px 0px 30px 0px;
   padding: 20px;
   font-size: 40px;
-  color: white;
+  color: gray;
 }
 
 button {
