@@ -59,6 +59,6 @@ button {
 .equal {
   width: 145px;
   border-radius: 10px;
-  background-color: whitesmoke;
-  color: black;
+  background-color: rgb(242, 6, 6);
+  color: whitesmoke;
 }
