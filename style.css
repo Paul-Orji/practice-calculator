@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(191, 149, 231);
+  background-color: whitesmoke;
   
   
 }
@@ -36,19 +36,18 @@ input {
   box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, .16);
   border: none;
   border-radius: 15px;
-  color: rgb(26, 25, 25);
   text-align: end;
   margin: 40px 0px 30px 0px;
   padding: 20px;
   font-size: 40px;
-  color: gray;
+  color: rgba(22, 21, 21, 0.447);
 }
 
 button {
   /* box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, 0); */
   background-color: black;
   border: none;
-  border-radius: 0;
+  border-radius: 10px;
   width: 70px;
   height: 50px;
   margin: 10px;
@@ -59,7 +58,7 @@ button {
 
 .equal {
   width: 145px;
-  border-radius: 0%;
-  background-color: grey;
+  border-radius: 10px;
+  background-color: whitesmoke;
   color: black;
 }
